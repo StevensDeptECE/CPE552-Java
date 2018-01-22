@@ -23,3 +23,5 @@ hs_err_pid*
 
 #get rid of any emacs backup files in case I use that
 *~
+/lib/nbproject/private/
+/lib/build/

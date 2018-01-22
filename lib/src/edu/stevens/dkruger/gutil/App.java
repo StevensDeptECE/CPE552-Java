@@ -1,4 +1,5 @@
 package edu.stevens.dkruger.gutil;
+import edu.stevens.dkruger.util.Conf;
 import java.awt.*;
 import javax.swing.*;
 
