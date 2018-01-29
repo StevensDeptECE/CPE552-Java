@@ -23,3 +23,19 @@ hs_err_pid*
 
 #get rid of any emacs backup files in case I use that
 *~
+/EE552/nbproject/private/
+/Netbeans/Drawing/nbproject/private/
+/Netbeans/Session10/build/
+/Netbeans/Session10/nbproject/private/
+/Netbeans/Session11/build/
+/Netbeans/Session11/nbproject/private/
+/Netbeans/Session12/build/
+/Netbeans/Session12/nbproject/private/
+/Netbeans/Session13/nbproject/private/
+/EE552/src/Session10/build/
+/EE552/src/Session10/nbproject/private/
+/EE552/src/Session11/build/
+/EE552/src/Session11/nbproject/private/
+/EE552/src/Session12/build/
+/EE552/src/Session12/nbproject/private/
+/EE552/src/Session13/nbproject/private/
