@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><svg clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 5000 5000" xmlns="http://www.w3.org/2000/svg"><defs><style type="text/css"><![CDATA[
+    .str1 {stroke:#434242;stroke-width:100}
+    .str0 {stroke:#434242;stroke-width:400;stroke-linejoin:round}
+    .str2 {stroke:white;stroke-width:200;stroke-linecap:round}
+    .fil2 {fill:none}
+    .fil3 {fill:#434242}
+    .fil0 {fill:#FFFFFF}
+    .fil1 {fill:url(#id0)}
+   ]]></style><radialGradient cy="48%" fx="50%" fy="48%" id="id0"><stop offset="0" stop-color="#0af"/><stop offset="1" stop-color="#008BFF"/></radialGradient></defs><g id="Layer_x0020_1"><path class="fil0 str0" d="M4600 2500c-400-700-1200-1100-2100-1100s-1700 400-2100 1100c400 700 1200 1100 2100 1100s1700-400 2100-1100z"/><circle class="fil1 str1" cx="2500" cy="2500" r="800"/><path class="fil2 str2" d="M2000 2500c0-276 224-500 500-500"/><circle class="fil3" cx="2500" cy="2500" r="200"/></g></svg>

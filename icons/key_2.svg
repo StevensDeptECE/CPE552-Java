@@ -1,0 +1,90 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: cairo 1.10.2 (http://cairographics.org)
+%%CreationDate: Fri Jul  4 10:10:12 2014
+%%Pages: 1
+%%BoundingBox: 0 0 360 384
+%%DocumentData: Clean7Bit
+%%LanguageLevel: 2
+%%EndComments
+%%BeginProlog
+/cairo_eps_state save def
+/dict_count countdictstack def
+/op_count count 1 sub def
+userdict begin
+/q { gsave } bind def
+/Q { grestore } bind def
+/cm { 6 array astore concat } bind def
+/w { setlinewidth } bind def
+/J { setlinecap } bind def
+/j { setlinejoin } bind def
+/M { setmiterlimit } bind def
+/d { setdash } bind def
+/m { moveto } bind def
+/l { lineto } bind def
+/c { curveto } bind def
+/h { closepath } bind def
+/re { exch dup neg 3 1 roll 5 3 roll moveto 0 rlineto
+      0 exch rlineto 0 rlineto closepath } bind def
+/S { stroke } bind def
+/f { fill } bind def
+/f* { eofill } bind def
+/n { newpath } bind def
+/W { clip } bind def
+/W* { eoclip } bind def
+/BT { } bind def
+/ET { } bind def
+/pdfmark where { pop globaldict /?pdfmark /exec load put }
+    { globaldict begin /?pdfmark /pop load def /pdfmark
+    /cleartomark load def end } ifelse
+/BDC { mark 3 1 roll /BDC pdfmark } bind def
+/EMC { mark /EMC pdfmark } bind def
+/cairo_store_point { /cairo_point_y exch def /cairo_point_x exch def } def
+/Tj { show currentpoint cairo_store_point } bind def
+/TJ {
+  {
+    dup
+    type /stringtype eq
+    { show } { -0.001 mul 0 cairo_font_matrix dtransform rmoveto } ifelse
+  } forall
+  currentpoint cairo_store_point
+} bind def
+/cairo_selectfont { cairo_font_matrix aload pop pop pop 0 0 6 array astore
+    cairo_font exch selectfont cairo_point_x cairo_point_y moveto } bind def
+/Tf { pop /cairo_font exch def /cairo_font_matrix where
+      { pop cairo_selectfont } if } bind def
+/Td { matrix translate cairo_font_matrix matrix concatmatrix dup
+      /cairo_font_matrix exch def dup 4 get exch 5 get cairo_store_point
+      /cairo_font where { pop cairo_selectfont } if } bind def
+/Tm { 2 copy 8 2 roll 6 array astore /cairo_font_matrix exch def
+      cairo_store_point /cairo_font where { pop cairo_selectfont } if } bind def
+/g { setgray } bind def
+/rg { setrgbcolor } bind def
+/d1 { setcachedevice } bind def
+%%EndProlog
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox: 0 0 360 384
+%%EndPageSetup
+q 0 0 360 384 rectclip q
+0 g
+161.336 94.302 m 134.184 121.45 l 227.621 214.899 l 261.574 196.598 
+304.621 201.399 333.32 230.052 c 368.273 265.052 368.273 321.802 333.32 
+356.751 c 298.32 391.751 241.57 391.751 206.57 356.751 c 177.922 
+328.098 173.148 285.001 191.434 251.098 c 7.473 67.098 l -2.492 57.149 
+-2.492 40.848 7.473 30.899 c 17.422 20.95 33.723 20.95 43.672 30.899 c 
+70.82 3.751 l 75.82 -1.249 83.922 -1.249 88.922 3.751 c 107.023 21.848 
+l 112.035 26.848 112.035 34.95 107.023 39.95 c 79.871 67.098 l 97.973 
+85.251 l 125.137 58.052 l 130.137 53.052 138.234 53.052 143.234 58.052 
+c 161.336 76.149 l 166.336 81.2 166.336 89.251 161.336 94.302 c h
+242.773 320.552 m 257.773 335.552 282.121 335.552 297.121 320.552 c 
+312.074 305.598 312.074 281.2 297.121 266.251 c 282.121 251.298 257.773 
+251.298 242.773 266.251 c 227.82 281.2 227.82 305.598 242.773 320.552 c 
+h
+242.773 320.552 m f
+Q Q
+showpage
+%%Trailer
+count op_count sub {pop} repeat
+countdictstack dict_count sub {end} repeat
+cairo_eps_state restore
+%%EOF
