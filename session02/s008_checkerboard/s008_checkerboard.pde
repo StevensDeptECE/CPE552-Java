@@ -18,7 +18,8 @@ void draw() {
 
 void mousePressed() {
      println(mouseX, mouseY); 
-     ellipse(mouseX, mouseY, dx,dx); 
+     fill(255,0,0);
+     ellipse(mouseX/dx*dx, mouseY/dx*dx, dx,dx); 
 }
 /*
 void draw() {

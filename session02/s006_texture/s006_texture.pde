@@ -9,18 +9,15 @@
 
 PShape ball;
 void setup() {
-  size(900, 700, OPENGL);
-  noStroke();
+  size(900, 700, P3D);
   PImage img = loadImage("earth.jpg");
-  sphereDetail(20); 
+  noStroke();
   ball = createShape(SPHERE, 240);
   ball.setTexture(img);
-  // the larger this number, the better the approximation to a sphere
 }
 float angle = 0;
 void draw() {
   background(0);   // draw the black of space
-  lights();        // enable lighting
   translate(width/2, height/2); // move to the center
   rotateY(angle); // rotate the earth
   shape(ball);    // draw the earth
