@@ -15,7 +15,7 @@ public class Config {
     private boolean verbose;
     private HashMap<String,String> map;
     private static Pattern blankLine = Pattern.compile("\\s*");
-    private static Pattern commands = Pattern.compile("^\\s*(include|define|menu|regex|toolbar)([a-zA-Z][a-zA-Z0-9]*)");
+    private static Pattern commands = Pattern.compile("(^\\s+$|^\\s*#|include|define|menu|regex|toolbar)\\s+([a-zA-Z][a-zA-Z0-9]*)");
 
     private void loadFile(String filename) throws IOException {
         Scanner s = new Scanner(new BufferedReader(new FileReader(filename)));
@@ -25,7 +25,7 @@ public class Config {
                 System.out.println(lineNum + ": " + line);
             }
             Matcher m = commands.matcher(line);
-            if (m.lookingAt()) {
+            if (m.find()) {
                 String cmd = m.group(0);
                 System.out.println("cmd=" + cmd);
             } else {

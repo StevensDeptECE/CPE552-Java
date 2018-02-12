@@ -14,7 +14,7 @@ public class TestingDataClass {
     public static void buildingArrays() {
         int[] a = { 5, 4, 3 };
         for (int i = 0; i < a.length; ++i)
-            System.out.print(x[i]);
+            System.out.print(a[i]);
         
         final int n = 10;
         int[] b = new int[n];
@@ -46,7 +46,7 @@ public class TestingDataClass {
         // iterate through an entire hash map
     }
     public static void loadingProperties() {
-        0
+        
     }
     public static void main(String[] args) {
         buildingArrays();
