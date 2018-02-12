@@ -1,0 +1,7 @@
+Hello there!  This is a test of our multilingual dictionary translation software.
+Can you hear me?
+Thank you very much.
+I like to eat Chinese food.
+Indian food is also fantastic.
+Can our simple translation software generate results that are understandable?
+We will see.
