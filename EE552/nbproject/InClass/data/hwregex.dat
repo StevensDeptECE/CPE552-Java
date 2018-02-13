@@ -1,0 +1,16 @@
+define root # print out the name of the definition (root)
+    base        ".."  # print out base ==> string ".."
+    appname     "test"
+    bg          C=ff0000      # bg ==> Color ff0000
+    fg          C=000000
+    font        "Times"
+    fontSize    12            # fontSize ==> int 12
+    language    "en"
+    name        /[a-zA-Z][a-zA-Z0-9_]*/     # name ==> create a regex object and print
+    uint        /\d+/
+    int         /\-?\d+/
+    regex       m"/.*/"     # print out the regex between "   "
+    pi          3.14159265358979    #  pi ==> double 3.14...
+    Na          6.022140857e+23
+    G           -6.67408e-11
+

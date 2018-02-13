@@ -4,7 +4,7 @@ package session03;
  *
  * @author dkruger
  */
-public class Vec3D {
+public class Vec3D { // session03.Vec3D
   public static void main(String[] args) {
     Vec3D a = new Vec3D(1,2,3);
     Vec3D b = new Vec3D(1.5,2.5,-3.2);
