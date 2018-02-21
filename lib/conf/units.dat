@@ -1,0 +1,14 @@
+Name        abbr    mass    length  time    money   coef              
+Kilogram    kg      1       0       0       0       1
+meter       m       0       1       0       0       1
+second      s       0       0       1       0       1
+dollar      $       0       0       0       1       1
+meter/sec   m/s     0       1       -1      0       1
+Joule       J       1       1       -1      0       1
+$/kilogram  $/kg    -1      0       0       1       1
+mile        mi      0       1       0       0       1609.34
+foot        ft      0       1       0       0       0.3048
+parsec      -       0       1       0       0       3.08567758e16
+hour        h       0       0       1       0       3600
+minute      min     0       0       1       0       60
+day         day     0       0       1       0       86400       # 1 mean solar day
