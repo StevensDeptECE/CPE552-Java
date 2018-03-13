@@ -1,7 +1,0 @@
-int main() {
-	Point p;
-
-	double invDX = 1.0 / dx;
-	int i = int((p.x - xmin) * invDX);
-	int y = int((p.y - ymin) * invDY);
-	grid[i][j].addEnd(p);
