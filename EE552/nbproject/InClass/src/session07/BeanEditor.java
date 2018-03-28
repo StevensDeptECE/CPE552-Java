@@ -17,6 +17,8 @@ public class BeanEditor extends JFrame {
     HashSet<String> setters = new HashSet<>();
     for (int i = 0; i < methods.length; ++i) {
       String name = methods[i].getName();
+      System.out.println("Method name=" + name);
+              
       if (name.startsWith("get"))
         getters.add(name.substring(3));
       else if (name.startsWith("set"))
