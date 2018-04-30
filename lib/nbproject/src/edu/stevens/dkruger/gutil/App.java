@@ -7,7 +7,7 @@ public class App extends JFrame {
 	private static final long serialVersionUID = 1L;
 	private Conf conf;
 	private Prefs prefs;
-	private boolean dirty;
+	private boolean dirty; // when true, the app needs to be saved
 	
 	public App(Conf conf, String title, int w, int h, Color bg, String[][] menus) {
 		super(title);

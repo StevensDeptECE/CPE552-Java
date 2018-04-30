@@ -7,7 +7,7 @@ import java.awt.event.*;
  * Internationalized Action capable of being attached to menus and buttons whose language
  * change dynamically with the selected user language
  */
-public class Action {
+public abstract class Action implements ActionListener {
 	private static HashMap<String, Action> actions;
 	
 	static {
@@ -18,9 +18,11 @@ public class Action {
 	ActionListener a;    // the listener to call if this action is activated
 	public Action(String name, ActionListener a) {
 		this.name = name; this.a = a;
+		actions.put(name, a);
 		
 	}
 	public static void setLocale(String locale) {
 		
 	}
 }
+
