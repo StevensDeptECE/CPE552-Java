@@ -94,12 +94,10 @@ public class HelloGlobe implements GLEventListener, KeyListener {
     private int elementCount;
 
     private void setup() {
-
         GLProfile glProfile = GLProfile.get(GLProfile.GL3);
         GLCapabilities glCapabilities = new GLCapabilities(glProfile);
 
         window = GLWindow.create(glCapabilities);
-
         window.setTitle("Hello Globe");
         window.setSize(1024, 768);
 
