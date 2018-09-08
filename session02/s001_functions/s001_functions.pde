@@ -2,6 +2,7 @@
 int f(int x) { return x*x; }
 
 int g(double a) { return (int)a; }
+
 double h(double a, double b) {
   return a < b ? a : b;
 }
@@ -10,6 +11,7 @@ float hypotenuse(float a, float b) {
    return sqrt(a*a + b*b); 
 }
 
+// n! = n*(n-1)*(n-2)*...1
 double factorial(int n) {
   double x = 1;
   for (int i = n; i >= 1; i--) {
