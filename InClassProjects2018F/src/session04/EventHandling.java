@@ -46,7 +46,4 @@ public class EventHandling extends JFrame {
     }
 }
 
-    
-    
-}
 

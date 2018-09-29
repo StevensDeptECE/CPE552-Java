@@ -1,0 +1,12 @@
+3n+1 problem
+
+n=5
+	if n is odd, multiply by 3 and add 1
+	if n is even divide by 2
+
+5*3+1 ==> 16 --> 8 --> 4 --> 2 --> 1
+27
+13 -> 40 20 10 5
+
+Scanner s = new Scanner(System.in);
+int n = s.nextInteger();
