@@ -1,16 +1,6 @@
-package session05;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.concurrent.TimeUnit;
 
-/**
- *
- * @author dkruger
- */
 public class RunningProcesses {
     public static void runProcessUsingProcessBuilder() throws Exception {
         ProcessBuilder builder = new ProcessBuilder("d:/bin/jdk1.8.0_144/bin/javac", "test.java"); 
@@ -23,6 +13,7 @@ public class RunningProcesses {
     public static void runProcessUsingRuntime() throws Exception {
         Runtime r= Runtime.getRuntime();
         Process p = r.exec("javac test.java");
+	//        Process p = r.exec("d:/bin/jdk1.8.0_144/bin/javac test.java");
         BufferedReader isr = new BufferedReader(new InputStreamReader(p.getErrorStream()));
         String line;
         while ((line = isr.readLine()) != null)
