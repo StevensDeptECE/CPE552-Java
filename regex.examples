@@ -1,0 +1,37 @@
+abc	a followed by b followed by c
+[abc]	one of a or b or c
+[a-z]	one of the range a through z
+\d	[0-9]
+\w	[a-zA-Z0-9]
+a*	zero or more occurrences of a
+a+	aa*  one or more
+a?	zero or one occurrence
+.	any single character except \n
+( )	grouping operator, remembers what was matched
+(?  ):	grouping operator without remembering
+
+
+
+a9 abc
+ABC
+ABC_123
+ABC$123
+
+[A-Za-z_][0-9A-Za-z_\$]*
+
+A
+A9
+AB
+aB
+ABC
+
+http://www.azz.com
+http://azz.com
+http://www.az.co.uk
+
+.us .gov .biz   .co.uk
+
+https?:\/\/([a-zA-Z0-9]+\.)?[a-zA-Z0-9]+\.[a-zA-Z0-9]+
+https://
+
+
