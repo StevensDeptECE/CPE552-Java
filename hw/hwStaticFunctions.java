@@ -1,4 +1,9 @@
 public class StaticFunctions {
+	public static int fact(int n) {
+
+	}
+
+	
 	public static void main(String[] args) {
 		countdown(10); // print 10 9 8 7 6 5 4 3 2 1 0 blastoff!
 	
@@ -43,5 +48,3 @@ public class StaticFunctions {
 		System.out.println(sumDigits(980100012)); // the sum of the digits is 9 + 8 + 0 + 1 + 0 + 0 + 0 + 1 + 2 = 21
 	}
 }
-																																													 }
-	
