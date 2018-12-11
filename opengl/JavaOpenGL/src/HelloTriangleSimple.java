@@ -68,7 +68,6 @@ public class HelloTriangleSimple implements GLEventListener, KeyListener {
 
     private long start;
 
-
     private void setup() {
 
         GLProfile glProfile = GLProfile.get(GLProfile.GL3);
