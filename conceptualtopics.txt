@@ -1,0 +1,35 @@
+Comparing Objects
+if (x == y)
+if (x.equals(y))
+
+identity: (memory address)
+
+String a = "abc";
+String b = "ab" + "c";
+
+
+Immutable object: object that cannot be changed
+
+String s = "abc";
+s += "def";
+//s = "abcdef"
+
+Integer
+Double
+Float
+
+String  s = "";
+for (int i = 0; i < n; i++)
+  s = s + i;
+
+StringBuilder b = new StringBuilder(n*6);
+for (int i = 0; i < n; i++)
+  b.append(i);
+
+Serializable
+
+Java Bean
+
+reflection API: write programs that manipulate java code
+
+HW: generate a graphical editor for any type
