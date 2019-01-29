@@ -1,10 +1,15 @@
 void setup() {
-  int i = 0;
-  int sum = 1;
-  while (i < 40) {
+  int sum = 0;
+  int i = 1;
+  while (i < 100) {
+    sum = sum + i;
     println(i, sum);
     i = i + 1;
-    sum = sum + sum;
   }
+  
+  int sum2 = 0;
+  for (int j = 1; j <= 10; j++)
+    sum2 = sum2 + j;
+  println(sum, sum2);
   exit();
 }
