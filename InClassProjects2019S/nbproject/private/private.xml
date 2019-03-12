@@ -3,15 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/Win1.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/FileIO.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/InheritanceReview.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/Win2.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/ColorChooser.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/Win3.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/Win5.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/TextEd.java</file>
-            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjets2019S/src/Win4.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v1/TestShapes.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v2/Drawing.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v1/Circle.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/TestProcessing.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v2/Rect.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v2/Circle.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v2/Chessboard.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/A.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v1/Rect.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v1/Shape.java</file>
+            <file>file:/home/dkruger/git/course/EE552-Java/InClassProjects2019S/src/session06/v2/Shape.java</file>
         </group>
     </open-files>
 </project-private>
