@@ -1,0 +1,20 @@
+Java Beans
+Reflection API
+
+Comparison
+Identity
+Cloneable
+String Optimization
+StringBuffer
+StringBuilder
+	Immutable objects: String, Integer, Float, Double
+
+ArrayList<T> shallowcopy
+
+Float f = new Float(5.2f);
+f = new Float(f.floatValue() + 1);
+f = f + 1;
+
+Serializable
+
+Thread

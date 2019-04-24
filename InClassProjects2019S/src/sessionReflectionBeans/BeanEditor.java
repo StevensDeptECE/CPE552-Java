@@ -37,7 +37,7 @@ public class BeanEditor extends JPanel {
                System.out.println(n);
                
                try {
-                   getMethods.add(c.getMethod("get" + n, null));  //getXXXX()
+                       getMethods.add(c.getMethod("get" + n, null));  //getXXXX()
                    setMethods.add(c.getMethod("set" + n, new Class[] { String.class }));
                } catch (Exception e) {
                    e.printStackTrace();
