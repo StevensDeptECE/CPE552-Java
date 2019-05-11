@@ -1,0 +1,36 @@
+An account has a balance. Customers should be able to deposit money,
+withdraw money, and get their balance. Every account has a unique id number.
+
+A bank has many accounts. Each one belongs to a customer who has a
+unique id number. Customers also have a first name and a last name.
+
+Each customer may have more than one account.
+
+A checking account can write checks. Each check may be written for no more than the balance. A fee of $1 per check is charged
+
+A savings account credits interest every month. There should be one number containing the current interest rate for the bank
+
+account
+	id
+	checkBalance()
+	bool withdraw( amount )
+	void deposit( amount )
+
+bank
+//someone in the bank must pick a unique id #
+	newAccount( balance)
+	closeAccount(id)
+
+customer
+       id
+       firstname
+       lastname
+       list of accounts
+
+public class Customer {
+//  private Account mine;
+  private ArrayList<Account> myAccounts;
+
+}
+money
+number

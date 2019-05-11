@@ -6,6 +6,11 @@ package sessionobjectorientedbasics;
  */
 public class Stringies {
     public static void main(String[] args) {
+        int x = 5;
+        int y = x;
+        if (x == y) {
+            // this compares the values for builtin type
+        }
         // Strings are IMMUTABLE
       String s1 = "abc";
       String s2 = "abc";

@@ -20,6 +20,7 @@ public class PersonBean {
     } // firstName = null lastname = null age  = 0
 
     public int getX() { return 0; }
+    public void setX(int x) {}
     public String toString() { return firstName + " " + lastName + " age=" + age; }
 
     /*
@@ -49,5 +50,7 @@ public class PersonBean {
     public void setAge(String age) {
         this.age = Integer.parseInt(age);
     }
-    
+    public void setChildren(PersonBean[] children) {}
+    public PersonBean[] getChildren() {}
+
 }
