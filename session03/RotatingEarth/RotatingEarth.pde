@@ -7,7 +7,7 @@ void setup() {
   sphereDetail(1000);
   earth = createShape(SPHERE, 500);
   earth.setTexture(img);
-  frameRate(60);
+  //frameRate(60);
 }
 float a = 0;
 final float DEG2RAD = PI/180;
