@@ -26,14 +26,17 @@ public class Vec3d {
         return new Vec3d();
     }
 
+    // set the x,y,z components of the vector to these new values
+    public void set(double x, double y, double z) {
+    }
     public static void main(String[] args) {
         Vec3d v1 = new Vec3d();
-        System.out.println(v1);
+        System.out.println(v1); // (0,0,0)
         Vec3d v2 = new Vec3d(1,2,3);
-        System.out.println(v1);
+        System.out.println(v1); // (1,2,3)
         Vec3d v3 = new Vec3d(4,1,-1);
-        System.out.println(add(v2,v3));
-        System.out.println(sub(v2,v3));
-        System.out.println(dot(v2,v3));
+        System.out.println(add(v2,v3)); // (5,3,2)
+        System.out.println(sub(v2,v3)); // (-3,1,4)
+        System.out.println(dot(v2,v3)); // 1*4+2*1+4*-1 = 2
     }
 }
