@@ -1,0 +1,49 @@
+Circles have x,y and radius
+  area()
+  draw()
+
+Rect has x,y (top-left corner) width, and height
+  area()
+  draw()
+
+Line has x1,y1,  x2,y2
+  area() = 0
+  draw()
+
+abstract class Shape {
+  private double x,y;
+
+  public Shape(double x, double y) {
+    this.x = x; this.y = y;
+  }
+  abstract double area();
+  abstract void draw();
+}
+
+class Circle extends Shape {
+private double radius;
+public Circle(double x, double y, double r) {
+  radius = r;
+}
+// must write area and draw
+}
+class .. {
+
+}
+abstract class .. {
+
+}
+
+
+A Person has a heart and two kidneys.
+The heart has three parameters
+  beats per minute (bpm)
+  systolic pressure
+  diastolic pressure
+
+The kidney will be represented by overall function
+ 0 to 100%
+
+
+A person can donate one kidney without ill effect
+With 0 kidneys, or 0 heart, they die.
