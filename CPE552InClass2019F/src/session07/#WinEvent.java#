@@ -1,0 +1,13 @@
+package session07;
+public class WinEvent extends JFrame {
+	public WinEvent() {
+	}
+
+}
+
+class MyListener implements WindowListener {
+	public void windowClosing(WindowEvent e) {
+	}
+	public void windowClosed(WindowEvent e) {
+	}
+}
