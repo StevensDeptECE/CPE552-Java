@@ -1,0 +1,39 @@
+// instantiate = new (create an object)
+
+public ____________ A { // interface
+  public void f();
+}
+
+public _________ B ___________ A { // abstract class, implements
+  private int x;
+  public B(int x) { ______________}
+}
+
+public __________ C _____________ B { // abstract class , extends
+  private int y;
+  public C(int x, int y) {
+
+
+  }
+}
+
+public _______D ____________C { // class, extends
+  public void f() { System.out.println("f"); }
+}
+
+public class Test {
+  public static void main(String[] args) {
+    A a1 = null;
+    B b1 = null;
+    C c1 = null;
+    D d1 = null;
+    a1 = new A(); // ILLEGAL: cannot instantiate an interface
+    b1 = new B(); // ILLEGAL: cannot instantiate an abstract class
+                  // ILLEGAL: constructor does not match
+    c1 = new C(); // ILLEGAL (abstract)
+    d1 = new D();
+
+class Chair {}
+
+Chair c1 = new Chair();
+Chair c2 = new Chair();

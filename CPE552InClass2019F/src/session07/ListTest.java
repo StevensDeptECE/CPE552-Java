@@ -13,7 +13,8 @@ public class ListTest {
 		ArrayList<Point> points = new ArrayList<>();
 		points.add(new Point(2,3));
 		points.add(new Point(4,100));
-
+    for (int i = 0; i < 5; i++)
+			points.add(new Point(1,2);
 		for (int i = 0; i < points.size(); i++)
 			System.out.print(points.get(i) + " ");
 		System.out.println();

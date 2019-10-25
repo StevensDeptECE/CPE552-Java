@@ -1,17 +1,24 @@
 public class InterfaceExamples {
 	public static void main(String[] args) {
-		Airplane a[] = new Airplane[2];
-		a[0] = new ElectricPlane(100); // 100 KW-h   "ElectricPlane battery=xx
-		a[1] = new JetPlane(10000); // kg fuel       "JetPlane fuel= 9995 kg
+		Airplane a = new ElectricPlane(100); // instantiate
+
+		a.fly();
+
+		
+		//		Airplane a[] = new Airplane[2];
+		//		a[0] = new ElectricPlane(100); // 100 KW-h   "ElectricPlane battery=xx
+		//		a[1] = new JetPlane(10000); // kg fuel       "JetPlane fuel= 9995 kg
 
 		// fly for ElectricPlane subtracts 1 from battery charge
 		// fly for JetPlane subtracts 10kg fuel
+		/*
 		for (int i = 0; i < 4; i++) {
   		for (Airplane p : a) {
 				p.fly();
 				System.out.println(p);
 			}
 		}
+		*/
 			
 	}
 
@@ -28,10 +35,10 @@ class ElectricPlane implements Airplane {
 	ElectricPlane(double charge) {
 		this.charge = charge;
 	}
-  public void fly() {
+
+	public void fly() {
 		charge--;
 	}
-
 	@Override
 	public void takeoff() {
 	}

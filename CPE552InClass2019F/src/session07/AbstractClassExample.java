@@ -1,6 +1,11 @@
 public class AbstractClassExample {
 	public static void main(String[] args) {
 		Plane p = new Plane(1000);
+		p.fly();
+
+
+
+		
 		PassengerPlane pp = new PassengerPlane(1000);
 		pp.fly();
 		pp.serveCoffee();
@@ -8,16 +13,21 @@ public class AbstractClassExample {
 		FighterPlane fp = new FighterPlane(1000);
 		fp.fly();
 		//ILLEGAL		fp.serveCoffee();
+		fp.shoot();
 
 
 	}
 }
 
+/*
+	Plane manages basic fuel and flight dynamics
+*/
 abstract class Plane {
 	private double fuel;
-	public Plane(double fuel)  { this.fuel = fuel; }
-
-	public void fly() { fuel--;}
+	public Plane(double fuel) { this.fuel = fuel; }
+	public void fly() {
+		fuel--;
+	}
 }
 
 class FighterPlane extends Plane {
