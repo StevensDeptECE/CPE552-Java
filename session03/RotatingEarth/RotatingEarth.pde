@@ -4,7 +4,7 @@ void setup() {
   size(800,800,P3D);
   PImage img = loadImage("earth.jpg");
   noStroke();
-  sphereDetail(1000);
+  sphereDetail(50);
   earth = createShape(SPHERE, 500);
   earth.setTexture(img);
   //frameRate(60);
