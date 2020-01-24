@@ -3,9 +3,9 @@ void setup() {
   fill(255,0,0);
 }
 
-int x = 0;
-int y = 0;
-int speedX = 3, speedY = 1;
+float x = 0;
+float y = 0;
+float speedX = 2.7, speedY = 0.2;
 final int RECT_WIDTH = 50, RECT_HEIGHT=50;
 void draw() {
   background(0,0,255);
