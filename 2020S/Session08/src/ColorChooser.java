@@ -44,7 +44,8 @@ public class ColorChooser extends JFrame {
         p = new JPanel();
         c.add(p);
         addWindowListener( new WindowAdapter() {
-            public void wIndowClosing(WindowEvent e) {
+            @Override
+            public void windowClosing(WindowEvent e) {
                 System.exit(0);
             }
         });
