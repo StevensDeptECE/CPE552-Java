@@ -1,0 +1,15 @@
+#skip comment lines like this
+#
+# read in entire file into arraylist
+# read in first names into hashmap  firstname --> lastname
+# print out hashmap
+# print out entire list
+# look up one first name and find corresponding last name
+Dov Kruger
+Lee Tung
+Min Song
+Yu-Dong Yao
+Jennifer Chen
+Bill Clinton
+Bill Gates
+
