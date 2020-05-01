@@ -138,3 +138,16 @@ try {
 }
 
 Scanner!
+
+
+To add a listener to a JButton (or a JTextField)
+
+JButton b = new JButton("ok");
+
+JTextField tf = new JTextField();
+tf.addActionListener( new ActionListener() {
+  public void actionPerformed(ActionEvent e) {
+    // do something!
+  }
+
+});
