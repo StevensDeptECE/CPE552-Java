@@ -1,0 +1,13 @@
+Modeling Data
+
+IS_A  when to use inheritance
+Relationships between objects  1:1, 1:* *:1, *:*
+Dimensions
+
+JulianDate
+
+Testing
+
+Java Beans - Reflection
+
+Review

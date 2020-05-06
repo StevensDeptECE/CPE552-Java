@@ -1,0 +1,100 @@
+ArrayList
+LinkedList
+HashMap
+
+1. Load a dictionary from disk and load into a HashMap
+
+apple     --> 1
+bear      --> 2
+cat       --> 3
+...
+
+BufferedReader br = new BufferedReader(new FileReader("test.dat");
+HashMap<String, Integer> dictionary = new HashMap<>();
+int count = 0;
+
+while ((line = br.readLine()) != null) {
+  dictionary.put(line, count++);
+
+
+***too hard: MultiMap
+Bill Clinton
+Bill Gates
+Donald Trump
+Donald Duck
+
+Remember the rules for beans!!!
+  public constructor    OR serializable (but forget that)
+  matching public get and set methods
+
+public Account  {
+  private String owner;
+  private int id;
+  public Account(String own, int id) {
+    this.owner = owner; this.id = id;
+  }
+}
+
+Account a = new Account("Dov", 123);
+Account a2 = a; // THIS IS NOT A COPY
+
+if (a == a2) {
+  // YES!
+}
+
+// WOULD YOU WANT TO MAKE A COPY? DOES IT MAKE SENSE?
+// Account should not be cloned
+
+public class Vec3d implements Cloneable {
+  public double x,y,z; // this is ok because Vec3d is not going to change
+  public Vec3d clone() { return new Vec3d(x, y, z); }
+  public void setX(double x) { this.x = x; }
+  public double getX() { return x; }
+}
+
+
+Vec3d v1 = new Vec3d(1,2,3);
+Vec3d v2 = v2.clone();
+v1.x = 33.2;
+
+
+
+
+Write a program with a bank account that has a balance, that can deposit , withdraw, and return the amount of money (getBalance())
+
+
+Write test code to check the following scenarios
+
+1. Create an account with $0, deposit $1000, print out the balance.
+2. Try to withdraw $2000. This should fail because you don't have enough money. The balance should be $1000 because the withdraw fails.
+public class Account {
+private double balance;
+public double getBalance() { return balance; }
+public void deposit(double amt) { balanace  += amt; }
+
+public static void main(String [] args) {
+  Account a = new Account();
+  a.deposit(1000);
+  double b= a.getBalance();
+  System.out.println(a.getBalance());
+  System.out.println(a);
+}
+
+public class MyWindow extends JFrame {
+public MyWindow() {
+//  super("title");
+  super();
+
+   setSize(1000,800);
+   Container c = getContentPane();
+   JButton b = new JButton("ok");
+   b.addActionListener(new ActionListener() {
+     public void actionPerformed(ActionEvent e) {
+
+     }
+   });
+
+}
+
+
+class, abstract, class, interface, inner class, static class, anonymous inner class
