@@ -1,0 +1,24 @@
+<!--
+  Account is an object
+  FirstName could be an attribute
+  In the first one, I make it an object.
+  In the second Account, I don't
+
+XML has DOCTYPE to specify legality of the tree
+newer way: XML Schema: rules in XML defining the rules for your XML
+-->
+
+<!DOCTYPE Accounts>
+<Accounts>
+  <Account>
+    <id>100000010515</id>
+    <FirstName>Dov</FirstName><LastName>Kruger</LastName>
+    <Balance>1000.0</Balance>
+  </Account>
+  <Account id="100000010518" FirstName="Peihong" LastName="Yu">
+    <Balance>3000000.0</Balance>
+  </Account>
+</Accounts>
+
+
+<!-- 100000010515 Dov Kruger 1000.0   XML is a lot more obvious than just data! But there is a high price-->

@@ -1,0 +1,23 @@
+	git (version control)
+database
+	write a JDBC program to insert rows into a table
+	be able to use git
+	learn to design tests (unit tests, and others)
+ 	  extreme programming
+
+	JUnit  unit testing
+
+
+	src
+	  packages
+	     YourCode.java
+	test
+	  packages
+	     TestYourCode.java
+
+	Continuous integration (CI)
+	  Travis
+	  
+	Jenkins for Java
+
+

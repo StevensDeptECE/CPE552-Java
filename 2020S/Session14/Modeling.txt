@@ -1,0 +1,167 @@
+Object Oriented Analysis and Design -- OOAD
+
+We want a program to represent airplanes flying between cities, each
+airplane flies has a fuel state, and is being flown by a pilot. The
+pilot has a name, hours of experience, and is only allowed to fly for
+12 hours before having to rest for 12 hours.
+
+Candidates for objects:
+
+Airplane
+  fuel
+  fly()
+  
+Pilot
+  name
+  hoursExperience
+  hoursFlown
+  methods()
+  
+City
+FuelTank
+
+
+class Airplane {
+  public void fly() {}
+}
+
+class Pilot extends Airplane { // Why is this wrong?
+  public void fly() {}
+}
+
+Inheritance:
+A Pilot IS_A kind of an Airplane  NO!
+A Pilot is ALWAYS an airplane   NO!
+A Pilot can fly one and only one airplane. An Airplane can have only one pilot. NO! (copilot)
+
+
+A Pilot controls an Airplane
+
+An Airplane HAS a Pilot
+
+class Airplane {
+  private double fuel;
+  private Pilot pilot;
+  private Pilot copilot;
+  
+  public void fly() {
+    fuel--;
+    pilot.fly();
+    copilot.fly();
+  }
+  public Airplane() {}
+  public void setPilot(Pilot p) { pilate = p; }
+  public Pilot getPilot() { return pilate; }
+}
+
+class Pilot {
+  private String name;
+  int hoursExperience;
+  int hoursFlown; // tiredness level
+  Airplane flies;
+
+  public void fly() {
+    hoursExperience++;
+    hoursFlown++;
+    if (hoursFlown > ???)
+      //land(), takeabreak() whatever
+  }
+  public void land() {
+    hoursFlown = 0;
+  }
+}
+
+
+Police want to track people and cars. If we find a car on the street
+we want to be able to find the owners. if we arrest a person, we want
+to know what cars they own.
+
+A Car belongs to a Person
+
+A Person owns a Car
+
+class Car {
+  private ArrayList<Person> owners;
+  public Car() {
+    owners = new ArrayList<>();
+  }
+  public void setOwner(Person p) {
+    // remove previous owner
+    owners.add(p);
+  }
+}
+
+class Person {
+  private String name;
+  ArrayList<Car> owns;
+
+  public void buy(Car c) {
+    owns.add(c);
+//    c.owner = this; // this is illegal if it is private
+    c.setOwner(this); 
+  }
+
+public Person(String name) {
+  this.name = name;
+  owns = new ArrayList<>(256); // I'm a baby! no car
+}
+}
+
+
+class Person {}
+class Car {}
+
+class MapPersonCar {
+  HashMap<Car, Person> byCar;
+  HashMap<Person, Car> byPerson;
+  
+  Person lookupByCar(Car c) { return byCar.get(c); }
+  Car lookupByPerson(Person p) {return byPerson.get(p); }
+
+
+}
+
+
+We are going to compute dimensional quantities. For example 32kg, 408sec, 2000 m/s, 1.5m, 100J = 100 kg*m/s^2, 32.2ft/sec^2 1200W
+
+class Joule {
+}
+class Kilogram {
+}
+class Watt {
+
+}
+class Gram {
+
+}
+class Milligram {
+
+}
+
+class Foot {
+
+}
+class Furlong {
+
+}
+
+Can you abstract what kind of UNITS exist?
+
+class Unit {
+  int length, time, mass;
+  double coef;
+
+  public Unit(  int length, int time, int mass, String name, double coef) {
+
+  }
+
+  public Unit convert(Unit u) {
+    if (u.length != length)
+      throw new RuntimeException("Bad Unit");
+
+  }
+}
+
+
+Unit meter = new Unit(1, 0, 0, "m", 1.0)
+Unit food = new Unit(1, 0, 0, "ft", 0.3033);
