@@ -1,0 +1,9 @@
+Name	  Orbits    Image      	  Mass(kg)	Diam(m)		r(m)	orbPeriod(days)	rotPeriod(hours)    axialtilt(deg) orbinclin(deg)
+Trappist  ???       sun.jpg       
+b         Trappist  trappistb.jpg 0.85          1.09            .011    1.51
+c         Trappist  trappistc.jpg 1.38          1.06            .015    2.42
+d         Trappist  trappistd.jpg 0.41          0.77            .021    4.05
+e         Trappist  trappiste.jpg 0.62          0.92            .028    4.05
+f         Trappist  trappistf.jpg 0.68          1.04            .037    4.05
+g         Trappist  trappistg.jpg 1.34          1.13            .045    4.05
+h         Trappist  trappisth.jpg NaN           0.76            .06
