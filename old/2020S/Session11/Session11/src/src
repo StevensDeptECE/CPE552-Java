@@ -1,0 +1,13 @@
+  /home/dkruger/git/course/EE552-Java/2020S/Session11/Session11/src:
+  total used in directory 52 available 66710808
+  drwxrwxr-x 2 dkruger dkruger 4096 Apr 17 15:52 .
+  drwxrwxr-x 6 dkruger dkruger 4096 Apr 17 15:25 ..
+  -rw-r--r-- 1 root    root     629 Apr 17 15:40 CloneTest.class
+  -rw-rw-r-- 1 dkruger dkruger  564 Apr 17 15:41 CloneTest.java
+  -rw-rw-r-- 1 dkruger dkruger  877 Apr 17 15:29 CloneTest.java~
+  -rw-r--r-- 1 root    root     548 Apr 17 15:51 Elephant.class
+  -rw-r--r-- 1 root    root     895 Apr 17 15:40 Fraction.class
+  -rw-r--r-- 1 root    root     876 Apr 17 15:52 Identity.java
+  -rw-r--r-- 1 root    root    1264 Apr 17 15:51 ListCopy.class
+  -rw-r--r-- 1 root    root     949 Apr 17 15:51 ListCopy.java
+  -rw-r--r-- 1 root    root     564 Apr 17 15:41 ListCopy.java~

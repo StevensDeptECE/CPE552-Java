@@ -1,20 +1,153 @@
 Java Beans
-Reflection API
+     either has a default constructor JavaBean() or Serializable
+     matching methods: getX() and setX() both public
 
-Comparison
-Identity
+     public void setX(int x) { internalx = x; }
+     public int getX() { return internalx ; }
+     public int[] getY() { }
+     public void setY(int y[]) {}
+
+     you may have other methods, but the automated code does not know about that
+
+**Reflection API
+
+Comparison   equals
+Identity     ==
+2 ==2 that's different, 2 is not an object
 Cloneable
 String Optimization
 StringBuffer
 StringBuilder
 	Immutable objects: String, Integer, Float, Double
 
-ArrayList<T> shallowcopy
+**ArrayList<T> shallowcopy
 
+wrapper classes
 Float f = new Float(5.2f);
+Double d = new Double(2.5);
+Integer i = new Integer(3);
+
 f = new Float(f.floatValue() + 1);
 f = f + 1;
 
-Serializable
+ArrayList<Double> a = new ArrayList<>();
+for (int i = 0; i < 1000; i++)
+  a.add(i); // autoboxing new Double(i)
+a.set(50, 42.8); // set can only be used once the position exists.
 
-Thread
+//traversing the array list
+for (int i = 0; i < a.length; i++)
+  System.out.print(a.get(i));
+
+for (Iterator<Double> i = a.iterator(); i.hasNext(); ) {
+  Double d = i.next();
+  System.out.print(d);
+}
+
+for (Double d : a) {
+  System.out.print(d);
+}
+
+review problem:
+1. Build an ArrayList of numbers from 1 to 10	1 2 3 4 5 6 7 8 9 10
+2. Remove elements from the end until there are only 5    1 2 3 4 5
+3. Now remove all odd numbers from the list   2 4
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16...
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16...
+  i
+j
+HashMap<String, Double> quotes = new HashMap<>();
+quotes.put("AAPL", 204);
+quotes.put("OIL", -35);
+
+double p = quotes.get("AAPL");
+
+You should be able to dump out the entire hashmap but I won't ask that for the test
+
+*** not on final, but learn before interview!!!
+for (Map.Entry<String,Double> entry : quotes.entrySet()) {
+  System.out.println(entry.getKey() + "==>" + entry.getValue());
+}
+
+test yourself (not so important for final, but VERY important for interview)
+load symbols and price from disk, look up symbol.
+
+*** LinkedList<Integer> a = new LinkedList();
+a.insert(0, 5);
+
+
+
+
+
+
+**Serializable
+Write a method yourself to serialize to JSON.
+
+class Quiz {
+  String name;
+  int points;
+  int numQuestions;
+
+  public void save(PrintWriter p) {
+    p.println("{");
+    p.println("\"" + 5); // "5
+    p.println('"' + 5); // will print whatever character is 5 more than "
+  }
+}
+/*
+{
+  "name": "Java Objects",
+  "points": 10,
+  "numQuestions": 20
+}
+
+**Thread	not on final! I forgot to do it before!
+
+class MyThread extends Thread {
+  @Override
+  public void run() {
+
+  }
+}
+  
+Thread t = new Thread(); // nothing happens
+t.start(); // run is executed
+
+
+class, abstract class, interface, anonymous inner class, inner class, static inner class
+
+this
+super(); // first line of constructor calls parent
+super("title"); // calls parent's constructor with a String parameter.
+
+public void paint(Graphics g) {
+  super.paint(g);
+  ...
+}
+
+
+
+** not on final
+
+try {
+    PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("test.dat")));
+    pw.println("hello");
+    pw.close(); // be sure to close the file!!!
+} catch (IOException e) {
+  e.printStackTrace();
+}
+
+Scanner!
+
+
+To add a listener to a JButton (or a JTextField)
+
+JButton b = new JButton("ok");
+
+JTextField tf = new JTextField();
+tf.addActionListener( new ActionListener() {
+  public void actionPerformed(ActionEvent e) {
+    // do something!
+  }
+
+});

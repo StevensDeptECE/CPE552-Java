@@ -3,7 +3,7 @@
  * @author dkruger
  */
 public class LinkedList {
-    private static class Node {//INNER CLASS (POINTER TO LINKEDLIST
+    private class Node {//INNER CLASS (POINTER TO LINKEDLIST
        int val;
        Node next;
        Node(int v, Node n) { 
@@ -23,7 +23,7 @@ public class LinkedList {
             list.addFront(i);// warmup
         list = new LinkedList();
         long t0 = System.nanoTime();
-        for (int i = 0; i < 50000000; i++)
+        for (int i = 0; i < 5000000; i++)
             list.addFront(i);
         long t1 = System.nanoTime();
         System.out.println("Elapsed: " + (t1-t0)*1e-9);
