@@ -4,6 +4,7 @@ void setup() {
 
 final int N = 8;
 int dx;
+int[] pieces = new int[N][N];
 void draw() {
   int c = 0;
   dx = width / N;
@@ -14,12 +15,14 @@ void draw() {
     }
     c = 255-c;
   }
+  // draw the pieces on top of the board
 }
 
 void mousePressed() {
      println(mouseX, mouseY); 
      fill(255,0,0);
      ellipse(mouseX/dx*dx, mouseY/dx*dx, dx,dx); 
+     // instead of drawing, add your piece to the array!
 }
 /*
 void draw() {
