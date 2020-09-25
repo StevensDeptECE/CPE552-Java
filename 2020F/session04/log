@@ -1,0 +1,4 @@
+BadJava.java:2: error: <identifier> expected
+    public cstatic void main(String args) {
+                  ^
+1 error
