@@ -1,0 +1,86 @@
+Object-Oriented Terminology
+
+Class
+    A class is a specification for creating an object
+    A class is a type of object
+    In theory, a class is just an idea, a concept. In programming langauges like Java the class also takes some memory
+
+Object
+    An object is an instance of a class
+    An object takes a finite amount of memory
+    An object has state (what it "remembers")
+    An object has behavior
+
+Message
+    we send an object a message and ask it to do something
+
+Method
+    the object responds to a message with a method (the implementation)
+    In strongly typed languages, message = method = function call
+
+Encapsulation
+    Keeping as much state as possible private so outside code cannot depend on the data
+    Implementing the fewest possible public methods
+
+Identity
+    Each object must have a unique identity. In other words even if two Person objects have same name, they are not the same object
+Inheritance
+    The unique identity for objects in RAM is by default their address in memory.
+
+Polymorphism
+    sending the same message to two different kinds of object and calling the appropriate method
+
+parent
+    The class inherited from
+child
+    the class that is inheriting
+
+abstract class
+    An abstract class is a class that does not exist.
+
+interface 
+    An interface is a specification for children who inherit from it
+    "Anyone who inherits from me must write the following methods, or they are abstract"
+    describes behavior (see below)
+
+behavior
+    All the public methods of a class together is called its behavior
+
+
+
+Java (and some C++-specific) Terminology
+
+base Class
+    parent
+
+derived Class
+    child
+
+abstract class
+    cannot be instantiated (cannot write new)
+
+interface
+    has only abstract methods, cannot be instantiated
+    cannot have any data at All
+    cannot have any methods
+
+member function
+    method
+
+member data
+
+
+
+private
+    only visible by the class
+
+public
+    any code anywhere can see this
+
+protected
+    descendents of this class, and classes in the same package may access
+
+default visibility
+    visible to classes in the same package (not children)
+
+
