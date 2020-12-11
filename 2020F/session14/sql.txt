@@ -1,0 +1,16 @@
+create table People {
+  firstName varchar(20),
+  lastName varchar(20)
+);
+
+insert into People Value ('Dov', 'Kruger');
+insert into People Value ('Thomas', 'Maris');
+update People set firstName='Freddy' where lastname='Kruger';
+delete People where lastname='Kruger';
+delete People;
+
+drop table People;
+
+
+select firstname,lastname from People where lastname='x'
+
