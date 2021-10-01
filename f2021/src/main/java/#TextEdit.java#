@@ -1,0 +1,13 @@
+public class TextEdit extends JFrame {
+	private JTextArea ta;
+	public TextEdit( ) {
+    ta = new JTextArea();
+
+		// String a = "abc" + "def" + "ghi";
+		cutMenu.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					//ta.something...
+				}
+			});
+	}
+}

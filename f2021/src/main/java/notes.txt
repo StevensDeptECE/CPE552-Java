@@ -1,0 +1,23 @@
+A class is a specification to create AN OBJECT
+A class can be INSTANTIATED
+
+An abstract class CANNOT BE INSTANTIATED
+
+   an abstract class has an abstract method, and since you don't know what to do
+   you cannot call it: shape.draw()
+
+
+An interface is an abstract class without:
+   data
+   methods
+
+the only thing in an interface is abstract methods
+
+public interface ActionListener {
+  public void actionPerformed(ActionEvent e);
+}
+
+notice: NO WORD ABSTRACT in interface, because EVERYTHING IS ABSTRACT
+
+
+
