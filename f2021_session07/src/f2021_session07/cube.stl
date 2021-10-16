@@ -1,0 +1,30 @@
+solid StevensCAD
+facet normal 
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 10.0 10.0 0.0
+    vertex 10.0 0.0 0.0
+  end loop
+end facet
+facet normal 
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 10.0 10.0 0.0
+    vertex 0.0 10.0 0.0
+  end loop
+end facet
+facet normal 
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 10.0 0.0 10.0
+    vertex 10.0 0.0 0.0
+  end loop
+end facet
+facet normal 
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 10.0 0.0 10.0
+    vertex 0.0 0.0 10.0
+  end loop
+end facet
+endsolid StevensCAD
