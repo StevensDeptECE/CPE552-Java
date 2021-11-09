@@ -3,7 +3,7 @@ interface FuncOneVar {
 }
 
 public class MathStuff {
-	public static bisection(FuncOneVar func, double a, double b, double eps) {
+	public static double bisection(FuncOneVar func, double a, double b, double eps) {
 		double ya = func.f(a), yb = func.f(b);
 		double x;
 		do {
