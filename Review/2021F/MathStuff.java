@@ -3,7 +3,21 @@ interface FuncOneVar {
 }
 
 public class MathStuff {
-	public static bisection(FuncOneVar func, double a, double b
+	public static bisection(FuncOneVar func, double a, double b, double eps) {
+		double ya = func.f(a), yb = func.f(b);
+		double x;
+		do {
+			x = (a+b)/2;
+			double y = func.f(x);
+			if (y < 0) {
+				a = x; ya = y;
+			} else if (y > 0) {
+				b = x; yb = y;
+			} else
+				return x;
+		} while (Math.abs(b-a) > eps);
+		return x;
+	}
 	
 	public static void main(String[] args) {
 		FuncOneVar func = new F1();
