@@ -1,7 +1,7 @@
 /*
 	This is a test of polymorphism
 	Implement an abstract base class Flower and classes Rose and Venus Flytrap
-	to 
+	to make the following main work
  */
 public class TestFlowers {
 	public static void main(String[] args) {
