@@ -1,0 +1,15 @@
+use test;
+
+drop table cities;
+
+create table cities (
+  name varchar(20) primary key,
+  population integer,
+  country varchar(10)
+);
+
+create index by_pop on cities(population);
+
+insert into cities values('New York', 8000000, 'USA');
+insert into cities values('Beijing', 21000000, 'China');
+insert into cities values('Hoboken', 50000, 'USA');
