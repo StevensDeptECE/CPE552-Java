@@ -1,0 +1,14 @@
+5 22.8 + 15 - 3 *
+5 22.8+15-3*    this one would require using regex to parse
+
+
+if (numberPattern.matches(t)) {
+
+// don't do this!!!
+if (token.equals("+")) {
+
+} else if (token.equals("-"))
+
+} else  { // ,must be number....
+
+}
