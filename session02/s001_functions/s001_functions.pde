@@ -1,3 +1,5 @@
+long f2(long x) { return x*x; }
+
 //    f(x) = x*x
 int f(int x) { return x*x; }
 
@@ -30,7 +32,7 @@ void setup() {
     print(f(i)); // 014916
   println();
   println(g(5.999));
-  println(h(1.2,2.3));
+  println(h(3,4));
   
   float c = hypotenuse(3.0, 4.0); //  5.0   sqrt( )
   double f = factorial(5); //5*4*3*2*1 = 120.0 
