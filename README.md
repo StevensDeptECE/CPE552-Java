@@ -1,5 +1,7 @@
 # EE552-Java
 
+[hello](google.com)
+
 Instructor: Dov Kruger
 
 Welcome to EE552, an intensive introduction to Java.
