@@ -1,0 +1,19 @@
+___________ A {
+  public  void f();
+}
+___________ B {
+  private int x,y;
+  public abstract void g();
+}
+___________ C extends B {
+  public void g() {}
+}
+___________ D implements A {
+}
+________ E extends B implements A {
+   public void f() {}
+}
+
+
+
+
