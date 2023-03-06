@@ -39,7 +39,7 @@
       <recent name="edu.stevens.draw" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.edu.stevens.draw2.DrawApp">
     <configuration name="DrawApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.stevens.draw.DrawApp" />
       <module name="session07" />
@@ -53,8 +53,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="edu.stevens.draw2.DrawApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.stevens.draw2.DrawApp" />
+      <module name="session07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.stevens.draw2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.edu.stevens.draw2.DrawApp" />
         <item itemvalue="Application.DrawApp" />
       </list>
     </recent_temporary>
@@ -67,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678133306649</updated>
-      <workItem from="1678133308025" duration="4524000" />
+      <workItem from="1678133308025" duration="8439000" />
     </task>
     <servers />
   </component>
