@@ -1,7 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4e2775e-d832-4cac-82b7-2ff2567c259d" name="Changes" comment="" />
+    <list default="true" id="a4e2775e-d832-4cac-82b7-2ff2567c259d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/2022F_Final_Review.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/src/main/java/edu/stevens/session03/Complex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/src/main/java/edu/stevens/session03/First.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/src/main/java/edu/stevens/session03/Fraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/src/main/java/edu/stevens/session03/Fraction2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/src/main/java/edu/stevens/session03/Mathy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/target/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session03/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/src/main/java/S00Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/src/main/java/S01Shapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/src/main/java/edu/stevens/ee552/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/src/main/java/edu/stevens/ee552/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/src/main/java/edu/stevens/ee552/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/src/main/java/edu/stevens/ee552/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session04/src/main/java/edu/stevens/ee552/TestShapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/META-INF/Manifest.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/mavenproject1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/mavenproject1/src/main/java/edu/stevens/mavenproject1/HWVector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/mavenproject1/src/main/java/edu/stevens/mavenproject1/Mavenproject1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/mavenproject1/src/main/java/edu/stevens/mavenproject1/StaticData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/mavenproject1/src/main/java/edu/stevens/mavenproject1/UsingProcessing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/mavenproject1/src/main/java/edu/stevens/mavenproject1/Vector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/recursivefunctions/recursivefunctions.pde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session05/sierpinski/sierpinski.pde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/src/main/java/edu/stevens/dov/OverloadingConstructors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/src/main/java/edu/stevens/dov/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/src/main/java/edu/stevens/s06/S00Win.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/src/main/java/edu/stevens/s06/S01Win.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/src/main/java/edu/stevens/s06/S02Win.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/src/main/java/edu/stevens/s06/S03ButtonLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session06/s06/src/main/java/edu/stevens/s06/S04Classes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session07/midterm_Review_2022F.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session07/midterm_Review_2022F_part2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session07/s07/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session07/s07/src/main/java/edu/stevens/s07/ColorChooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/Session07/s07/src/main/java/edu/stevens/s07/S07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/hw/hw04polymorphism.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/quiz/quiz2022F.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/keywords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/src/main/java/edu/stevens/session08/MarkdownCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/src/main/java/edu/stevens/session08/RegexDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/src/main/java/edu/stevens/session08/Session08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/src/main/java/edu/stevens/session08/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/src/main/java/edu/stevens/session08/sample_output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session08/session08/src/main/java/edu/stevens/session08/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/Person.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/EfficientList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/ExploreHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/S11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/SerializeRead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/SerializeWrite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/SpellCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/TestImmutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/src/main/java/edu/stevens/s11/TestingClassAbilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session11/s11/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/session13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/src/edu/stevens/server/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/src/edu/stevens/server/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/src/edu/stevens/server/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/src/edu/stevens/server/Reflection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/src/edu/stevens/server/Vec3d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session13/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/session14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/src/DrawLines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/src/Primes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2022F/session14/src/WriteMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BeanRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/src/Parmigiana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/src/count1to10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/src/doesnotrun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/src/doubleto1024.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/src/wrongname.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Errors/wrongname.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/Basics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/CarSales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/Classes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/DataStructures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/Fraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/ObjectProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/Polymorphism.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/The6KindsOfClasses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FinalReview/dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../designspecs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../recursion/recursion.pde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session02/s006_texture/s006_texture.pde" beforeDir="false" afterPath="$PROJECT_DIR$/../../../session02/s006_texture/s006_texture.pde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/src/session13/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/src/session13/HWPrimeNumberSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/src/session13/HWPrimeNumberThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/src/session13/PrimeNumberSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/src/session13/RunnableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/src/session13/Session13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../session13/src/session13/ThreadedWin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/first.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/variableSizedtable.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,14 +155,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.stevens.draw" />
@@ -82,6 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678133306649</updated>
       <workItem from="1678133308025" duration="8439000" />
+      <workItem from="1679943699656" duration="299000" />
     </task>
     <servers />
   </component>
