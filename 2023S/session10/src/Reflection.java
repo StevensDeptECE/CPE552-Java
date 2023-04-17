@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Reflection {
    public static void main(String[] args) throws Exception {
-        Class c = Person.class;
+    //    Class c = Person.class;
         BufferedReader br = new BufferedReader(new FileReader("classNames.txt"));
         Scanner s = new Scanner(br);
         while (s.hasNext()) {
